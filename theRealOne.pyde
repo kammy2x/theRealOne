@@ -13,3 +13,4 @@ def draw():
     #middle()
 def mouseClicked():
     laser()
+    #
