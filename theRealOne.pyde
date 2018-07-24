@@ -9,4 +9,4 @@ def draw():
     flyingShip()
     middle()
 def mouseClicked():
-    mouse()
+    laser()

@@ -15,7 +15,7 @@ def middle():
     noFill()
     ellipse(mouseX,mouseY,10,10)
 
-def mouse():
+def laser():
     if mousePressed and mouseX > 400:
          line(pmouseX,pmouseY,mouseX,mouseY)
     if mouseX  or mouseY > 200:
