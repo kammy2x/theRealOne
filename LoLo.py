@@ -5,8 +5,6 @@ def begin():
 
 def middle():
 
-  
-    background(0,0,0)
  
     fill(100,100,100)
     ellipse(50,90,50,50)
