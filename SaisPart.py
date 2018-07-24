@@ -5,4 +5,4 @@ def setup():
     visuals()
     
 def draw():
-    ship()
+    ships()

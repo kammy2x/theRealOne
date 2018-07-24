@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 def themBoys():
     fill(155)
     triangle(30, 75, 58, 20, 86, 75) #1stship
@@ -20,7 +19,6 @@ def themBoys():
     fill(185,0,255)
     ellipse(328, 50, 15, 40)
     
-=======
 #def themBoys():
     rect(10, 20, 38, 38) # 1st ship (top lft.)
     rect(50, 60, 38, 38) # 2nd ship (middl)
@@ -37,4 +35,3 @@ def themBoys():
     rect(310, 60, 38, 38) # 13th ship (middl. 3)
     rect(350, 20, 38, 38) # 14th ship (top rght. 3)
     rect(350, 100, 38, 38) # 15 ship (bottm. rght. 3)
->>>>>>> 234ce10624fd6e9125b63164082469822d0de858
