@@ -6,7 +6,7 @@ ellipseSize = 30
 
 def flyingShip(): 
 
-    background(0, 0, 175) 
+
     global xCoord, yCoord,y, xSpeed, ySpeed, ellipseSize 
     leftBoundary = ellipseSize / 2 
     rightBoundary = 400 - ellipseSize / 2 
