@@ -1,7 +1,10 @@
 from themBoys import * 
 from shipStuff import *
+from Ships import *
 
 def setup(): 
     size(400, 600) 
 def draw():
-    themBoys() 
+    flyingShip()
+    ships()
+    themBoys()

@@ -6,7 +6,7 @@ def visuals():
     ellipse(56, 46, 55, 55)
     
 def ships():
-    background(0)
+
     #Player Ship
     noStroke()
     fill(255,0,0)
@@ -16,8 +16,3 @@ def ships():
     fill(50,120,255)
     ellipse(mouseX+17, 513, 13, 33)
     
-    #Bad Guy Ships 
-    fill(155)
-    triangle(30, 75, 58, 20, 86, 75)
-    fill(185,0,255)
-    ellipse(58, 50, 15, 40)
