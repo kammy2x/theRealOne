@@ -3,6 +3,7 @@ from shipStuff import *
 from Ships import *
 from LoLo import*
 
+
 def setup(): 
     size(400, 600) 
 def draw():
@@ -13,4 +14,3 @@ def draw():
     #middle()
 def mouseClicked():
     laser()
-    #
