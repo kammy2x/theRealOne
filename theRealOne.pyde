@@ -7,9 +7,9 @@ def setup():
     size(400, 600) 
 def draw():
     background(0, 0, 0)
-    themBoys() 
-    flyingShip()
-    middle()
+    #flyingShip()
     ships()
+    themBoys() 
+    #middle()
 def mouseClicked():
     laser()
