@@ -10,4 +10,8 @@ def draw():
     flyingShip()
     ships()
     themBoys()
+
+
+
+def mouseClicked():
     laser()
