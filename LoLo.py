@@ -10,7 +10,7 @@ def middle():
  
     fill(100,100,100)
     ellipse(50,90,50,50)
-    rect(mouseX,500,30,30)
+    rect(mouseX,500,35,35)
     stroke(205,205,0)
     noFill()
     ellipse(mouseX,mouseY,10,10)

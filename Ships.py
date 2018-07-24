@@ -15,4 +15,3 @@ def ships():
     triangle(mouseX-3, 535, mouseX+17, 480, mouseX+38, 535)
     fill(50,120,255)
     ellipse(mouseX+17, 513, 13, 33)
-    

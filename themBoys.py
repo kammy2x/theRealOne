@@ -19,7 +19,6 @@ def themBoys():
     fill(185,0,255)
     ellipse(328, 50, 15, 40)
     
-<<<<<<< HEAD
 
 #def themBoys():
     #rect(10, 20, 38, 38) # 1st ship (top lft.)
@@ -37,5 +36,3 @@ def themBoys():
     #rect(310, 60, 38, 38) # 13th ship (middl. 3)
     #rect(350, 20, 38, 38) # 14th ship (top rght. 3)
     #rect(350, 100, 38, 38) # 15 ship (bottm. rght. 3)
-=======
->>>>>>> 4016019ef46baae585698aefae7284210b14355b
