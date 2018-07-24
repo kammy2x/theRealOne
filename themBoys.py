@@ -1,4 +1,4 @@
-def themBoys():
+#def themBoys():
     rect(10, 20, 38, 38) # 1st ship (top lft.)
     rect(50, 60, 38, 38) # 2nd ship (middl)
     rect(90, 100, 38, 38) # 3rd ship (bottm. rght.)

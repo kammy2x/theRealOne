@@ -5,7 +5,7 @@ def visuals():
     triangle(30,535,58,300,86,535)
     ellipse(56, 46, 55, 55)
     
-def ships():
+def ship():
     background(0)
     #Player Ship
     noStroke()

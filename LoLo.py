@@ -2,8 +2,9 @@ def begin():
     #size(400,600)
     fill (30,90,100)
     rect(100,100,50,50)
+
 def middle():
-    
+
   
     background(0,0,0)
  
@@ -14,9 +15,9 @@ def middle():
     noFill()
     ellipse(mouseX,mouseY,10,10)
 
-def mouse():
-    if mouseClicked and mouseX > 400:
+def laser():
+    if mousePressed and mouseX > 400:
          line(pmouseX,pmouseY,mouseX,mouseY)
     if mouseX  or mouseY > 200:
          stroke(255,0,0)
-         line(mouseX,mouseY,150,100)
+         line(mouseX,mouseY,200,100)
