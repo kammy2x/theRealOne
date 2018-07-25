@@ -2,16 +2,15 @@ xCoord = 550
 yCoord = 550 
 xSpeed = 10
 ySpeed = 10
-ellipseSize = 30 
-
+rectSize = 35
 def flyingShip(): 
 
 
     global xCoord, yCoord,y, xSpeed, ySpeed, ellipseSize 
-    leftBoundary = ellipseSize / 2 
-    rightBoundary = 400 - ellipseSize / 2 
-    topBoundary = 540 - ellipseSize / 2  
-    bottomBoundary = 600 - ellipseSize /2 
+    leftBoundary = rectSize / 2 
+    rightBoundary = 400 - rectSize / 2 
+    topBoundary = 540 - rectSize / 2  
+    bottomBoundary = 600 - rectSize / 2 
     xCoord += xSpeed 
     yCoord += ySpeed 
 
