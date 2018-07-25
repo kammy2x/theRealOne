@@ -23,6 +23,15 @@ def flyingShip():
     shipY = mouseY        #top boundary for ship
     if shipY < 420: 
         shipY =  420
-    ellipse(mouseX, shipY, ellipseSize, ellipseSize) 
+    #Player Ship
+    noStroke()
+    fill(255,0,0)
+    rect(mouseX,500,35,35)
+    fill(255)
+    triangle(mouseX-3, 535, mouseX+17, 480, mouseX+38, 535)
+    fill(50,120,255)
+    ellipse(mouseX+17, 513, 13, 33)
+    
+    #ellipse(mouseX, shipY, ellipseSize, ellipseSize) 
     
     

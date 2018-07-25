@@ -5,14 +5,13 @@ def visuals():
     triangle(30,535,58,300,86,535)
     ellipse(56, 46, 55, 55)
     
-def ships():
+#def ships():
 
     #Player Ship
-    noStroke()
-    fill(255,0,0)
-    rect(mouseX,500,35,35)
-    fill(255)
-    triangle(mouseX-3, 535, mouseX+17, 480, mouseX+38, 535)
-    fill(50,120,255)
-    ellipse(mouseX+17, 513, 13, 33)
-    
+    #noStroke()
+    #fill(255,0,0)
+    #rect(mouseX,500,35,35)
+    #fill(255)
+    #triangle(mouseX-3, 535, mouseX+17, 480, mouseX+38, 535)
+    #fill(50,120,255)
+    #ellipse(mouseX+17, 513, 13, 33)

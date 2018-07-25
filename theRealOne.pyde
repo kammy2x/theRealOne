@@ -12,7 +12,7 @@ def draw():
     img = loadImage("starGround2.png")
     image(img, 0, 0)
     themBoys()
-    ships()
+    #ships()
     flyingShip() 
     shotShips()
     #middle()
