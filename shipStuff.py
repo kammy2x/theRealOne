@@ -24,3 +24,5 @@ def flyingShip():
     if shipY < 420: 
         shipY =  420
     ellipse(mouseX, shipY, ellipseSize, ellipseSize) 
+    
+    

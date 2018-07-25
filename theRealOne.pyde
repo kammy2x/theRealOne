@@ -12,8 +12,10 @@ def draw():
     image(img, 0, 0)
     ships()
     themBoys() 
-    flyingShip()
+    flyingShip() 
+    #shooter()
     #middle()
 def mouseClicked():
-    laser()
+    laser() 
+    
     
