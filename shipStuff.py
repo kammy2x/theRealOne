@@ -6,7 +6,7 @@ rectSize = 35
 def flyingShip(): 
 
 
-    global xCoord, yCoord,y, xSpeed, ySpeed, ellipseSize 
+    global xCoord, yCoord,y, xSpeed, ySpeed, rectSize 
     leftBoundary = rectSize / 2 
     rightBoundary = 400 - rectSize / 2 
     topBoundary = 540 - rectSize / 2  
@@ -19,9 +19,9 @@ def flyingShip():
     if yCoord >= bottomBoundary or yCoord<= topBoundary: 
         ySpeed = -ySpeed
     fill(255, 255, 255) 
-    shipY = mouseY        #top boundary for ship
-    if shipY < 420: 
-        shipY =  420
+    #shipY = mouseY        #top boundary for ship
+    #if shipY < 420: 
+        #shipY =  420
     #Player Ship
     noStroke()
     fill(255,0,0)
@@ -32,5 +32,4 @@ def flyingShip():
     ellipse(mouseX+17, 513, 13, 33)
     
     #ellipse(mouseX, shipY, ellipseSize, ellipseSize) 
-    
     
