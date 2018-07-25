@@ -7,14 +7,11 @@ from LoLo import*
 def setup(): 
     size(400, 600) 
 def draw():
-
-    flyingShip()
-    ships()
-    themBoys()
     background(0, 0, 0)
+    ships()
     themBoys() 
     flyingShip()
-    middle()
+    #middle()
 def mouseClicked():
     laser()
     

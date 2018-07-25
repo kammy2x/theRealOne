@@ -18,4 +18,4 @@ def laser():
          line(pmouseX,pmouseY,mouseX,mouseY)
     if mouseX  or mouseY > 200:
          stroke(255,0,0)
-         line(mouseX,mouseY,200,100)
+         line(mouseX,mouseY,mouseX,0)

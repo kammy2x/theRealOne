@@ -23,4 +23,4 @@ def flyingShip():
     shipY = mouseY        #top boundary for ship
     if shipY < 420: 
         shipY =  420
-    ellipse(mouseX, shipY, ellipseSize, ellipseSize)
+    ellipse(mouseX, shipY, ellipseSize, ellipseSize) 
