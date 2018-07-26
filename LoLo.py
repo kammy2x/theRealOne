@@ -22,10 +22,10 @@ def middle():
 
 def laser():
     global laserY, shotShip1
-    ship1 = triangle(30, 75, 58, 20, 86, 75) 
-    if mousePressed and mouseX > 400:
+   # ship1 = triangle(30, 75, 58, 20, 86, 75) 
+    if mouseX > 400:
          line(pmouseX,pmouseY,mouseX,mouseY)
-    if mouseX  or mouseY > 200:
+    if mouseY > 200:
          stroke(255,0,0)
          line(mouseX,mouseY,mouseX,laserY)
          

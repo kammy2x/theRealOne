@@ -68,8 +68,6 @@ def themBoys():
         xCoord6 += xSpeed6 
         if xCoord6 +28 >= 250 or xCoord6 <= 190: 
             xSpeed6 = -xSpeed6 
-    else: 
-        pass
      
     if LoLo.shotShip7 == False:
         fill(155)
