@@ -34,7 +34,7 @@ def shotShips():
     
     if mousePressed and mouseX >=30 and mouseX <=86 and laserY<=75: #Conditional to make the first ship disappear
         shotShip1 = True  
-        fill (0) 
+        fill (255,0,0) 
         stroke(0)
         triangle(30, 75, 58, 20, 86, 75)
     if shotShip1 == True:                            #Conditional to keep the ship "gone"
@@ -83,5 +83,10 @@ def shotShips():
         triangle(260, 165, 288, 105, 316, 165) 
     if shotShip7 == True:
         fill(0) 
-        triangle(260, 165, 288, 105, 316, 165) 
-        
+        triangle(260, 165, 288, 105, 316, 165)
+    if shotShip1 == True and shotShip2 == True  and shotShip3 == True and shotShip4 == True and shotShip5 == True  and shotShip6 == True  and shotShip7 == True :
+        fill(255,0,0)
+        textSize(20)
+        text("Level 1 Cleared", 135,300)
+    
+                
