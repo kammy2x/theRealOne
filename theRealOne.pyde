@@ -14,7 +14,7 @@ def draw():
         l = "Spaceland Adventure"
         image(p, 0, 0)
         loadFont("CopperplateGothic-Bold-48.vlw")
-        fill(255, 150, 255) #find perfect color for words
+        fill(255, 90, 255) #find perfect color for words
         textSize(32)
         text(l, 30, 100)
         fill(random(255), random(255), random(255)) #not sure I want this to be flashing, might need to find definite color.
