@@ -6,7 +6,6 @@ sumSumn = True
 
 def setup(): 
     size(400, 600)
-   
 def draw():
     global sumSumn
     if sumSumn == True:
@@ -37,4 +36,3 @@ def draw():
         #middle()
 def mouseClicked():
     laser() 
-    
