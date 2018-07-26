@@ -3,11 +3,14 @@ from shipStuff import *
 from Ships import *
 from LoLo import*
 sumSumn = True
+score = 0
+
 
 def setup(): 
     size(400, 600)
 def draw():
-    global sumSumn
+    global sumSumn, score , answer
+    
     if sumSumn == True:
         g = "Start"
         p = loadImage("galaxyGrounds.jpg")
@@ -26,6 +29,7 @@ def draw():
     if mousePressed and mouseX >= 100 and mouseX <= 300 and mouseY >= 300 and mouseY <= 400:
             sumSumn = False
     elif sumSumn == False:
+        
         background(0, 0, 0)
         img = loadImage("starGround2.png")
         image(img, 0, 0)

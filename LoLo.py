@@ -56,9 +56,6 @@ def shotShips():
     if shotShip1 == True and shotShip2 == True  and shotShip3 == True and shotShip4 == True and shotShip5 == True  and shotShip6 == True  and shotShip7 == True :
         fill(255,0,0)
         textSize(20)
-        text("Level 1 Cleared", 135,300)
-    if shotShip1 == False:
-        textSize(20)
-        text("CLICK TO START", 115,300)
-    
+        text("Level  Cleared", 135,300)
+
                 
