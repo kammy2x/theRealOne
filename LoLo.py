@@ -34,56 +34,25 @@ def shotShips():
     
     if mousePressed and mouseX >=30 and mouseX <=86 and laserY<=75: #Conditional to make the first ship disappear
         shotShip1 = True  
-        fill (255,0,0) 
-        triangle(30, 75, 58, 20, 86, 75)
-    if shotShip1 == True:                            #Conditional to keep the ship "gone"
-        fill(0) 
-        stroke(0)
-        triangle(30, 75, 58, 20, 86, 75) 
+  
     if mousePressed and mouseX >= 120 and mouseX <= 176 and laserY<=75: #Conditional to make the second ship disappear
         shotShip2 = True 
-        fill(255, 0, 0)
-        triangle( 120, 75, 148, 20, 176, 75) 
-    if shotShip2 == True:                                #Conditional to keep the ship out of view
-        fill(0) 
-        triangle( 120, 75, 148, 20, 176, 75)  
+
     if mousePressed and mouseX >= 210 and mouseX <= 266 and laserY<=75: 
         shotShip3= True
-        fill(255, 0, 0) 
-        triangle(210,75, 238, 20, 266, 75)
-    if shotShip3 == True: 
-        fill(0) 
-        triangle(210, 75, 238, 20, 266, 75) 
+ 
     if mousePressed and mouseX >=300 and mouseX<=356 and laserY<=75: 
-        shotShip4 = True
-        fill(255, 0, 0) 
-        triangle(300, 75, 328, 20, 356, 75) 
-    if shotShip4 == True: 
-        fill(0) 
-        triangle(300, 75, 328, 20, 356, 75)
+        shotShip4 = True 
         
     if mousePressed and mouseX >=80 and mouseX <=136 and laserY<=165: 
         shotShip5 = True       
-        fill(255) 
-        triangle(80, 165, 108, 105, 136, 165) 
-    if shotShip5 == True: 
-        fill(0) 
-        triangle(80, 165, 108, 105, 136, 165) 
+
     if mousePressed and mouseX >=170 and mouseX <=226 and laserY<=165: 
         shotShip6 = True 
-        fill(255) 
-        triangle(170, 165, 198, 105, 226, 165) 
-    if shotShip6 == True: 
-        fill(0) 
-        triangle(170, 165, 198, 105, 226, 165) 
+  
     if mousePressed and mouseX >=260 and mouseX<=316 and laserY<=165: 
         shotShip7 = True
-        fill(255)
-        triangle(260, 165, 288, 105, 316, 165) 
-    if shotShip7 == True:
-        fill(0) 
-        triangle(260, 165, 288, 105, 316, 165)
-        noFill()
+
     if shotShip1 == True and shotShip2 == True  and shotShip3 == True and shotShip4 == True and shotShip5 == True  and shotShip6 == True  and shotShip7 == True :
         fill(255,0,0)
         textSize(20)
